@@ -1,21 +1,6 @@
-# Template for FrontLoops [Elements] challenge
+# Multiselect
 
-Install all dependencies
-```bash
-npm i
-```
-
-For start watching all files use:
-```bash
-npm run start
-```
-
-then open in browser
-```bash
-http://localhost:1234/
-```
-
-For build all files use:
-```bash
-npm run build
-```
+Build a multiselect with a list of options and Check all button.
+Clicking on option toggles its checked state and update the display for selected values.
+If all of the options were selected by clicking them - Check all button should also get checked.
+Display element should display first two checked elements from the list and collapse all others (and x more)
